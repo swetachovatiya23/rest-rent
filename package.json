@@ -1,7 +1,7 @@
 {
   "name": "rest-rent",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST-Rant is an app where users can review restaurants.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swetachovatiya23/rest-rent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swetachovatiya23/rest-rent/issues"
+  },
+  "homepage": "https://github.com/swetachovatiya23/rest-rent#readme"
 }

@@ -6,12 +6,16 @@ const express = require('express')
 //initialize the app object.
 const app = express()
 
+//the route that define the view engine.
+app.set('view engine', 'jsx')
+app.engine('jsx', require('express-react-views').createEngine())
+
 //code to import router created in places.js
 app.use('/places',require('./controllers/places'))
 
 //create a homepage route
 app.get('/', (req, res) => {
-    res.send('Hello world!')
+    res.render('home')
 })
 
 //404 route

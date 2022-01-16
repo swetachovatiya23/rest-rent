@@ -3,9 +3,9 @@
 ## Table of Content
 
 - Overview
+- steps
 - Directory Tree
 - Setting up the Environment
-- Bug / Feature Request
 - Technologies Used
 
 

@@ -1,5 +1,87 @@
+
+/* for heading of the page */
 h1 {
+    font-family: verdana;
+    background-color: rgb(250, 213, 183);
+    font-size: 40px;
     text-align: center;
-    color: cornflowerblue;
+    color: rgb(83, 40, 238);
+    border: 2px solid orange;
+
+  }
+
+/* for the scond box */
+/* main {
+    background-color: rgb(247, 237, 216);
+    
+}  */
+
+
+/* for the home picture */
+div.home-pic {
+    background-color: rgb(250, 213, 183);
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* for the home page source name */
+.source-name {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(83, 40, 238);
+    
+}
+
+/* for place name */
+h2 {
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(107, 71, 236);
+}
+
+/* for cusin, city, state */
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(83, 40, 238);
+}
+
+/* for places picture */
+  div {
+    display: inline-block;
+    padding: 70px;
+}
+
+
+
+/* for the places pictures */
+.row {
+    background-color: rgb(250, 213, 183);
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* for place button in home page */
+.btn-primary {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
   }
   
+  .btn-primary {background-color: #5ec262;} /* Green */
+

@@ -12,7 +12,7 @@ h1 {
 
 /* for the scond box */
 main {
-    background-color: rgb(247, 237, 216);
+    background-color: rgb(223, 248, 177);
     
 } 
 
@@ -85,3 +85,41 @@ p {
   
   .btn-primary {background-color: #5ec262;} /* Green */
 
+/* for navbar */
+nav {
+    background-color: rgb(250, 213, 183);
+    padding: 10px;
+    
+    border: 2px solid orange;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: rgb(83, 40, 238);
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: rgb(6, 141, 62);
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(244, 221, 248);
+    text-align: center;
+  }
+  
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+  }

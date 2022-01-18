@@ -25,11 +25,12 @@ function edit_form (data) {
                     <input id="state"/>
                 </div>
                 <div className="form-group col-sm-6">
-                    <label htmlFor="pic">cusion</label>
-                    <input id="cusion"/>
+                    <label htmlFor="pic">cuisines</label>
+                    <input id="cuisines"/>
                 </div>
                     <a href="/places">
-                    <button className="btn-primary">Edit Places</button>
+                    <input class= "btn btn-primary" type="submit" value="Add Changes"/>
+
                 </a>
             </div>
             </form>

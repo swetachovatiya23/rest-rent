@@ -6,7 +6,7 @@ function edit_form (data) {
         <Def>
           <main>
             <h1>Edit Place</h1>
-            <form method="POST" action={`/places/${data.id}?_method=PUT`}>
+             <form method="POST" action={`places/${data.id}?_method=PUT`}>
                <div className="row">
                 <div className="form-group col-sm-6">
                     <label htmlFor="name">Place Name</label>
@@ -28,12 +28,15 @@ function edit_form (data) {
                     <label htmlFor="pic">cuisines</label>
                     <input id="cuisines"/>
                 </div>
-                    <a href="/places">
-                    <input class= "btn btn-primary" type="submit" value="Add Changes"/>
+                <a href={`places/${data.id}/edit`} className="btn btn-warning"> 
+                        Edit
+                      </a>     
+                </div>
+        
+            </form> 
 
-                </a>
-            </div>
-            </form>
+            
+
           </main>
         </Def>
     )

@@ -59,5 +59,20 @@ router.delete('/places/:id', (req, res) => {
     places.splice(id, 1)
     res.redirect('/places')
   }
+
 })
 module.exports = router
+
+//for the edit route
+router.get('/:id/edit', (req, res) => {
+  let id = Number(req.params.id)
+  if (isNaN(id)) {
+      res.render('error404')
+  }
+  else if (!places[id]) {
+      res.render('error404')
+  }
+  else {
+    res.render('places/edit', { place: places[id] })
+  }
+})

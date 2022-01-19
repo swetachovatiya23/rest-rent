@@ -4,6 +4,7 @@ const db = require('../models')
 router.get('/', (req, res) => {
     db.Place.find()
     .then((places) => {
+      //render a view called places/index, send it this object { places }
       res.render('places/index', { places })
     })
     .catch(err => {
@@ -28,7 +29,9 @@ router.get('/new', (req, res) => {
 })
 
 router.get('/:id', (req, res) => {
-  res.send('GET /places/:id stub')
+  let id = req.params.id
+  res.send(`Get /:id ${id}`)
+  //res.render('places/show')
 })
 
 router.put('/:id', (req, res) => {
